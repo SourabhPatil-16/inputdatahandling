@@ -16,3 +16,6 @@ button {
 h2 {
   color: rgb(94, 238, 50);
 }
+.list {
+  display: inline;
+}

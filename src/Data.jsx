@@ -43,7 +43,7 @@ function Data() {
       <ul>
         {data.map((item, index) => (
           <li key={index}>
-            <div  onClick={() => handleDelete(index)}>
+            <div className="list" onClick={() => handleDelete(index)}>
               {item.name} - {item.degree}
             </div>
             {/* {item.name} - {item.degree}
