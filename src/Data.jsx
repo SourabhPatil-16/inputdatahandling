@@ -43,8 +43,11 @@ function Data() {
       <ul>
         {data.map((item, index) => (
           <li key={index}>
-            {item.name} - {item.degree}
-            <button onClick={() => handleDelete(index)}>Delete</button>
+            <div  onClick={() => handleDelete(index)}>
+              {item.name} - {item.degree}
+            </div>
+            {/* {item.name} - {item.degree}
+            <button onClick={() => handleDelete(index)}>Delete</button> */}
           </li>
         ))}
       </ul>
